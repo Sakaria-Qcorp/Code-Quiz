@@ -1,0 +1,76 @@
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    border: 5px solid lightseagreen;
+    background: white;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+/* Body Styling */
+
+body {
+    background-color: gold;
+    background-size: cover;
+}
+
+.box {
+    margin: 100px 100px;
+    border: 5px solid lightseagreen;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.score-header {
+    font-size: 40px; 
+}
+
+.score-container {
+    padding: 100px 10px;
+    font-size: 20px;
+}
+.score-list {
+    height: 30px;
+    background-color:lightseagreen;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.scoreButtons {  
+    width: 100%
+}
+
+#scoreBtn {
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background-color: lightseagreen;
+    font-size: 20px;
+}
+
+#scoreBtn:hover {
+    opacity: 75%;
+}

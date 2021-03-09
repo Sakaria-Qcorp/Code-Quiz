@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <Link href="./Assets/style.css">
-            <title>Quiz Challenge</title>
+        <link rel="stylesheet" href="./Assets/style.css">
+         <title>Quiz Challenge</title>
         
 
     </head>
     <body>
-        <div></div>
-        <h4 class="timer"></h4>
+        <header>
+        <nav>
+            <div class = "highscorepage"> <div class="score-page"><a class='toScores' href="gameScores.html">View Highscores</a></div></div>
+            <div class="timer"><span class="time"></span></div>
+        </nav>
+    </header>
+        <main></main>
+     
+        <div class="container1">
 
-        <footer class="footer"></footer>
+            <div class=" container">
+                <h1 class="h1Tag">Lets test your Knowledge</h1>
+                <div class="questions"><span class="scoreAlert"></span>To test your developer knowledge Click
+                    the button below to take this quiz! If a question is answered incorrectly 10 seconds will be deducted from the time.
+                    Try to answer all the questions in the provided time.
+                      <span style="font-weight: bold;">Please click the button below to start the game and good luck!</span></div>
+                <button type="button" class="Start btn" role="button">Start</button>
+    
+            </div>
+            
+            <!--the options for answers-->
+            <div class="card answers">
+
+                <button type="button" id="opts" class="eoption1 btn" role="button"></button>
+
+                <button type="button" id="opts" class="eoption2 btn" role="button"></button>
+
+                <button type="button" id="opts" class="eoption3 btn" role="button"></button>
+
+                <button type="button" id="opts" class="eoption4 btn" role="button"></button>
+
+            </div>
+            <div class="showAnswer"></div>
+            
+            <!--GameScore Input-->
+            <div class="highscores">
+                <h5>Please Enter your intials:</h5>
+                <input type="text" class="intials" placeholder="Name">
+                <a href="gameScore.html">
+                    <button type="button" class="submitGameScore btn">Submit Score</button>
+                </a>
+            </div>
+        </main>
+            
+        </div>
+        
+        
 
 
         <script src="./Assets/script.js"></script>
