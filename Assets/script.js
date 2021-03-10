@@ -196,6 +196,7 @@ function gameover() {
   answers.style.display = "none";
   highScoreEl.style.display = "inline";
   headerEl.textContent = "Game Over";
+  showAnswerEl.style.display="none";
 
   if (score >= 0) {
       question.innerHTML = "Well done! Your scored" +  score/10
