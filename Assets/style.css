@@ -29,15 +29,26 @@ a:visited {
     color: black;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .timer {
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    order:0;
+
+}
+main{
+    display:flex;
+    flex-direction: column;
 }
 
 /* Styling body*/
 .container {
-    margin: 100px 100px;
+    margin: 30px 30px;
     border: 5px solid rgb(5, 119, 128);
     text-align: center;
     background-color: dimgray;
@@ -49,7 +60,7 @@ header {
 }
 
 .questions {
-    padding: 70px 10px;
+    padding: 50px 10px;
     font-size: 30px;
 }
 .answers{
@@ -57,11 +68,12 @@ header {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    align-self: center;
 }
 
 #opts {
-    height: 40px;
-    width: 400px;
+    height: 100px;
+    width: 300px;
     margin: 5px;
     outline: none;
     font-size: 20px;
@@ -69,24 +81,15 @@ header {
     
 }
 
-/*
-.timer{
+.showAnswer{
     display: flex;
-    font-size: larger;
-    border: 2px solid black;
-    max-width: 100px;
-    justify-content: flex-end;
-    
+    justify-content:flex-start;
+    align-self:flex-start;
+    font-weight: bolder;
+
+    border: 5px solid cornflowerblue;
+    color: white;
+    background-color: lightseagreen;
 }
-.para{
-    
-    justify-content: center;
-}
-.h3{
-    display: flex;
-    justify-content: center;
-}
-#highscore{
-    display:flex;
-    justify-content: flex-start;
-}*/
+
+
